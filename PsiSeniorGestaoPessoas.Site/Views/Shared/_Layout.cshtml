@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title </title>
+    @Styles.Render("~/Content/css")
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="page-menu">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-top:11px">
+
+            <ul class="navbar-nav mr-auto">
+                <li class="logo" role="presentation">
+                    <img src="http://tdv.caixa/img/C138818.jpg" class="" style="border-radius:3px;" width="38" height="38" alt="" />
+                </li>
+                <li class="navbar-text menu-nome-usuario" role="presentation">
+                    &nbsp; Grace
+                </li>
+
+            </ul>
+
+            <ul class="navbar-nav ml-auto mr-auto">
+                <li class="nav-item">
+                    <a class="navbar-link nav-link" href="@Url.Action("Index", "Home")">
+                        <span class="fas fa-home"></span>&nbsp;Psi Senior - Sistema de Gestao de Pessoas
+                    </a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Principal
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="@Url.Action("Index", "Home")">Cadastro de Empregados</a>
+                        <a class="dropdown-item" href="@Url.Action("Index", "Home")">Cadastro de Coordenações</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="@Url.Action("Index", "Home")">Geral</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="@Url.Action("Index", "Home")">Sobre o Sistema</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br />
+
+    <div class="container-fluid">
+        @RenderBody()
+    </div>
+
+    <script>
+        var rootUrl = '@Url.Content("~/")';
+    </script>
+
+    
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/datatables")
+
+    @Scripts.Render("~/bundles/scripts")
+
+
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

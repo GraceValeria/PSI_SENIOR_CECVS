@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{F0C13CF0-5403-4664-859D-F120DAA18D28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{275920EB-524D-4A02-AC63-77CE9E5199DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Data", "4-Data", "{EBAFAF99-EA54-4FF0-9334-B72B3471541A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{60BBC9D7-D52D-4B8B-A279-0C4B68E8C5E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Infra", "5-Infra", "{8EE6111A-2A6E-4E3D-8DC8-04A3324205E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6-IoC", "6-IoC", "{655FFA91-CB08-446D-8C0D-C860C7A2BA37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{8AEF6D97-72DF-4B1C-94E9-34067AE72E82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsiSeniorGestaoPessoas.Site", "PsiSeniorGestaoPessoas.Site\PsiSeniorGestaoPessoas.Site.csproj", "{E3C2BAEF-E3D1-4768-9D88-3FC430922ECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsiSeniorGestaoPessoas.Application", "PsiSeniorGestaoPessoas.Application\PsiSeniorGestaoPessoas.Application.csproj", "{24B38CD3-008F-483A-80D7-CB626E689455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsiSeniorGestaoPessoas.Domain", "PsiSeniorGestaoPessoas.Domain\PsiSeniorGestaoPessoas.Domain.csproj", "{C2D9FD9C-A859-44E3-8DAD-DDE4F3358DF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsiSeniorGestaoPessoas.Data", "PsiSeniorGestaoPessoas.Data\PsiSeniorGestaoPessoas.Data.csproj", "{F0147C4F-2775-4B60-AF79-4F4594404685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsiSeniorGestaoPessoas.Infra", "PsiSeniorGestaoPessoas.Infra\PsiSeniorGestaoPessoas.Infra.csproj", "{F1D86852-45B4-4D4D-A106-27B177401079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsiSeniorGestaoPessoas.IoC", "PsiSeniorGestaoPessoas.IoC\PsiSeniorGestaoPessoas.IoC.csproj", "{DE3F1BD6-F8C1-47DA-A54A-25230B8193EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3C2BAEF-E3D1-4768-9D88-3FC430922ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C2BAEF-E3D1-4768-9D88-3FC430922ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C2BAEF-E3D1-4768-9D88-3FC430922ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C2BAEF-E3D1-4768-9D88-3FC430922ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B38CD3-008F-483A-80D7-CB626E689455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B38CD3-008F-483A-80D7-CB626E689455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B38CD3-008F-483A-80D7-CB626E689455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24B38CD3-008F-483A-80D7-CB626E689455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D9FD9C-A859-44E3-8DAD-DDE4F3358DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D9FD9C-A859-44E3-8DAD-DDE4F3358DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D9FD9C-A859-44E3-8DAD-DDE4F3358DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D9FD9C-A859-44E3-8DAD-DDE4F3358DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0147C4F-2775-4B60-AF79-4F4594404685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0147C4F-2775-4B60-AF79-4F4594404685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0147C4F-2775-4B60-AF79-4F4594404685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0147C4F-2775-4B60-AF79-4F4594404685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D86852-45B4-4D4D-A106-27B177401079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D86852-45B4-4D4D-A106-27B177401079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D86852-45B4-4D4D-A106-27B177401079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D86852-45B4-4D4D-A106-27B177401079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3F1BD6-F8C1-47DA-A54A-25230B8193EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3F1BD6-F8C1-47DA-A54A-25230B8193EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3F1BD6-F8C1-47DA-A54A-25230B8193EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3F1BD6-F8C1-47DA-A54A-25230B8193EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AEF6D97-72DF-4B1C-94E9-34067AE72E82} = {F0C13CF0-5403-4664-859D-F120DAA18D28}
+		{E3C2BAEF-E3D1-4768-9D88-3FC430922ECA} = {8AEF6D97-72DF-4B1C-94E9-34067AE72E82}
+		{24B38CD3-008F-483A-80D7-CB626E689455} = {275920EB-524D-4A02-AC63-77CE9E5199DD}
+		{C2D9FD9C-A859-44E3-8DAD-DDE4F3358DF0} = {60BBC9D7-D52D-4B8B-A279-0C4B68E8C5E4}
+		{F0147C4F-2775-4B60-AF79-4F4594404685} = {EBAFAF99-EA54-4FF0-9334-B72B3471541A}
+		{F1D86852-45B4-4D4D-A106-27B177401079} = {8EE6111A-2A6E-4E3D-8DC8-04A3324205E7}
+		{DE3F1BD6-F8C1-47DA-A54A-25230B8193EC} = {655FFA91-CB08-446D-8C0D-C860C7A2BA37}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C1047AA-3614-474A-BD2E-097948C78169}
+	EndGlobalSection
+EndGlobal
